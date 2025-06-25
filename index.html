@@ -8,6 +8,11 @@
         body{
             margin: auto;
         }
+        #div1{
+            border: 2px solid black;
+            padding: 20px;
+            width: fit-content;
+        }
        
     </style>
 </head>
@@ -15,6 +20,10 @@
     <h1>OPT generator</h1>
     <button onclick="showOTP()">Click me</button>
     <div id="OTP"></div>
+
+    <div id="div1"><p>parent</p>
+        <button id="but1"> child</button>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
